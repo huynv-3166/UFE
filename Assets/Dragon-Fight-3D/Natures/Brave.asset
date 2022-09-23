@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8ed4bbd61faf447ea8b5099b96cdbce, type: 3}
+  m_Name: Brave
+  m_EditorClassIdentifier: 
+  natureType: 4
+  natureName: Brave
+  naturePicture: {fileID: 0}
+  natureDescription: "Gia t\u0103ng 10% ATK gi\u1EA3m 20% t\u1ED1c \u0111\u1ED9"
+  odds: 4.5

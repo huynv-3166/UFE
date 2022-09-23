@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd3b699d2d90f4c1ab4140ba9e9b56be, type: 3}
+  m_Name: Pray
+  m_EditorClassIdentifier: 
+  resistanceType: 0
+  resistanceGroup: 3
+  resistanceName: Pray
+  resistancePicture: {fileID: -7139954049271874593, guid: 78405f53d59c1447d814c1c78537d766,
+    type: 3}
+  resistanceDescription: 
+  maxCastingFrame: 5
+  startUpFrames: 0
+  activeFrames: 1
+  recoveryFrames: 2
+  particleEffects:
+  - castingFrame: 0
+    particleEffect:
+      editorToggle: 0
+      identity: 0
+      prefab: {fileID: 4202438945090104321, guid: 600c9ca94c76c67449bd99aff8bced32,
+        type: 3}
+      duration: 5
+      stick: 1
+      destroyOnMoveOver: 0
+      followRotation: 0
+      lockLocalPosition: 1
+      mirrorOn2PSide: 1
+      overrideRotation: 0
+      initialRotation: {x: 0, y: 0, z: 0}
+      positionOffSet: {x: 0, y: 0, z: 0}
+      bodyPart: 3
+  canReduceHp: 0
+  hpReduce: 0.7

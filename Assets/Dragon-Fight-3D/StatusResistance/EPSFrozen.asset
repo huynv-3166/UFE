@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd3b699d2d90f4c1ab4140ba9e9b56be, type: 3}
+  m_Name: EPSFrozen
+  m_EditorClassIdentifier: 
+  resistanceType: 0
+  resistanceGroup: 1
+  resistanceName: EPSFrozen
+  resistancePicture: {fileID: 3578717704089717352, guid: 78405f53d59c1447d814c1c78537d766,
+    type: 3}
+  resistanceDescription: 
+  maxCastingFrame: 5
+  startUpFrames: 0
+  activeFrames: 1
+  recoveryFrames: 2
+  particleEffects:
+  - castingFrame: 2
+    particleEffect:
+      editorToggle: 0
+      identity: 1
+      prefab: {fileID: 2124317047284789899, guid: 5706a098dffe90b439f5d0132de95abb,
+        type: 3}
+      duration: 3
+      stick: 1
+      destroyOnMoveOver: 0
+      followRotation: 0
+      lockLocalPosition: 0
+      mirrorOn2PSide: 0
+      overrideRotation: 0
+      initialRotation: {x: 0, y: 0, z: 0}
+      positionOffSet: {x: -0.3, y: 0, z: 0}
+      bodyPart: 3

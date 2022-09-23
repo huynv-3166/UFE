@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab5d3345a61a340b5a5b9e0363b3c9e6, type: 3}
+  m_Name: Electric
+  m_EditorClassIdentifier: 
+  atrributeType: 0
+  attributeName: Electric
+  attributePicture: {fileID: -8186831660990490848, guid: 78405f53d59c1447d814c1c78537d766,
+    type: 3}
+  attributeDescription: 
+  stab: 20
+  effectLinks:
+  - targetAttribute: {fileID: 11400000, guid: ee028756de4074c469b052ce8f9bd4e4, type: 2}
+    effectiveness: -30
+  - targetAttribute: {fileID: 11400000, guid: b9290d966103b4191b7c2475610595c3, type: 2}
+    effectiveness: 30
+  - targetAttribute: {fileID: 11400000, guid: 7e0d1f60774654f70960cd19813534ba, type: 2}
+    effectiveness: -30

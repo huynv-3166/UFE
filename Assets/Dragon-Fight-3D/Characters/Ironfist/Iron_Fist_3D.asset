@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2e5269517f28664db5ccd78cbd208b1, type: 3}
+  m_Name: Iron_Fist_3D
+  m_EditorClassIdentifier: 
+  gameplayType: 0
+  profilePictureSmall: {fileID: 2800000, guid: 23ecaf019e038c84db45113708478124, type: 3}
+  profilePictureBig: {fileID: 2800000, guid: ae20007f662974e0b959dab1d3c6d254, type: 3}
+  characterName: Iron Fist
+  rareness: 1
+  gender: 1
+  characterDescription: 
+  characterAtrributes: []
+  statusResistances: []
+  currentImpact: []
+  selectionAnimation: {fileID: 0}
+  selectionSound: {fileID: 0}
+  deathSound: {fileID: 0}
+  height: 0
+  size: 0
+  age: 0
+  bloodType: Unknown
+  levelPoints: 1
+  healthPoints: 7560
+  attackPoints: 520
+  luckPoints: 10
+  critPoints: 150
+  speedPoints: 100
+  reducedamagePoints: 23
+  natures: []
+  maxEPS: 0
+  characterPrefabStorage: 0
+  characterPrefab: {fileID: 924905979924956264, guid: b97c2c5d805b6ef46a997f47605e231c,
+    type: 3}
+  prefabResourcePath: 
+  alternativeCostumes: []
+  initialPosition:
+    x:
+      _serializedValue: 0
+    y:
+      _serializedValue: 0
+    z:
+      _serializedValue: 0
+  initialRotation:
+    x:
+      _serializedValue: 0
+    y:
+      _serializedValue: 3037000704
+    z:
+      _serializedValue: 0
+    w:
+      _serializedValue: 3037000704
+  physics:
+    _moveForwardSpeed:
+      _serializedValue: 34359738368
+    _moveBackSpeed:
+      _serializedValue: 30064771072
+    _moveSidewaysSpeed:
+      _serializedValue: 17179869184
+    highMovingFriction: 1
+    _friction:
+      _serializedValue: 128849018880
+    canCrouch: 1
+    crouchDelay: 2
+    standingDelay: 2
+    canJump: 1
+    pressureSensitiveJump: 0
+    _jumpForce:
+      _serializedValue: 154618822656
+    _minJumpForce:
+      _serializedValue: 128849018880
+    minJumpDelay: 4
+    _jumpDistance:
+      _serializedValue: 60129542144
+    _jumpBackDistance:
+      _serializedValue: 47244640256
+    cumulativeForce: 1
+    multiJumps: 1
+    _weight:
+      _serializedValue: 858993459200
+    jumpDelay: 4
+    landingDelay: 3
+    _groundCollisionMass:
+      _serializedValue: 8589934592
+  headLook:
+    enabled: 0
+    segments: []
+    nonAffectedJoints: []
+    target: 1
+    effect: 1
+    overrideAnimation: 1
+    disableOnHit: 1
+  customControls:
+    overrideControlFreak: 0
+    controlFreak2Prefab: {fileID: 0}
+    zAxisMovement: 0
+    disableJump: 0
+    disableCrouch: 0
+    jumpButton: 2
+    crouchButton: 26
+  hideGauges: 00010000000000000000
+  _executionTiming:
+    _serializedValue: 858993472
+  possibleAirMoves: 1
+  _blendingTime:
+    _serializedValue: 429496736
+  animationType: 0
+  avatar: {fileID: 0}
+  useScaleFlip: 0
+  applyRootMotion: 0
+  animationFlow: 1
+  useAnimationMaps: 0
+  normalizeAnimationFrames: 0
+  stanceResourcePath:
+  - MoveSets/Iron_Fist_Stance
+  moves: []
+  aiInstructionsSet: []
